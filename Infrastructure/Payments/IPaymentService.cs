@@ -8,6 +8,6 @@ namespace AwesomeShopPatterns.API.Infrastructure.Payments
 {
     public interface IPaymentService
     {
-        object Process(OrderInputModel model);
+        PaymentSlipModel Process(OrderInputModel model);
     }
 }

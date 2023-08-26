@@ -1,6 +1,6 @@
 using AwesomeShopPatterns.API.Application.Models;
 
-namespace AwesomeShopPatterns.API.Infrastructure.Delivery
+namespace AwesomeShopPatterns.API.Infrastructure.Deliveries
 {
     public interface IDeliveryService
     {

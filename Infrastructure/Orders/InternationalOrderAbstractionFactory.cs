@@ -1,5 +1,5 @@
 using AwesomeShopPatterns.API.Core.Enums;
-using AwesomeShopPatterns.API.Infrastructure.Delivery;
+using AwesomeShopPatterns.API.Infrastructure.Deliveries;
 using AwesomeShopPatterns.API.Infrastructure.Payments;
 
 namespace AwesomeShopPatterns.API.Infrastructure.Order

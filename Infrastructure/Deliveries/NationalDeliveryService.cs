@@ -1,8 +1,8 @@
 using AwesomeShopPatterns.API.Application.Models;
 
-namespace AwesomeShopPatterns.API.Infrastructure.Delivery
+namespace AwesomeShopPatterns.API.Infrastructure.Deliveries
 {
-    public class InternationalDeliveryService : IDeliveryService
+    public class NationalDeliveryService : IDeliveryService
     {
         public void Delivery(OrderInputModel model)
         {
