@@ -26,6 +26,7 @@ namespace AwesomeShopPatterns.API.Infrastructure.Payments
         public decimal DocumentAmount { get; set; }
         public Payer Payer { get; set; }
         public Receiver Receiver { get; set; }
+
     }
 
     public class Payer{

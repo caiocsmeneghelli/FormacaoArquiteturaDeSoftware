@@ -14,13 +14,26 @@ namespace AwesomeShopPatterns.API.Application.Models
         public PaymentAddressInputModel PaymentAddress { get; set; }        
         public PaymentInfoInputModel PaymentInfo { get; set; }
         public bool? IsInternational { get; set; }
+
     }
 
-    public class CustomerInputModel {
+    public class CustomerInputModel : ICloneable {
         public Guid Id { get; set; }
         public string FullName { get; set; }
         public string Email { get; set; }
         public string Document { get; set; }
+
+        public object Clone()
+        {
+            return new CustomerInputModel()
+            {
+                Id = Id,
+                FullName = FullName,
+                Email = Email,
+                Document = Document
+            };
+        }
+
     }
 
     public class OrderItemInputModel {
